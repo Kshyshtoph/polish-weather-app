@@ -1,8 +1,8 @@
 import { CitiesData } from "./CitiesData";
-import { currentApiUrl } from "./apiUrl";
+import { dashboardApiUrl } from "./apiUrl";
 import coordinates from "./coordinates.json";
 
-const url = new URL(currentApiUrl);
+const url = new URL(dashboardApiUrl);
 
 url.searchParams.append(
   "latitude",

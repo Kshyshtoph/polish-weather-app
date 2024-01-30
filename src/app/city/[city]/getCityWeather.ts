@@ -1,4 +1,4 @@
-import { currentApiUrl } from "@/data/apiUrl";
+import { dashboardApiUrl } from "@/data/apiUrl";
 import coordinates from "@/data/coordinates.json";
 
 const current_weather_params =
@@ -8,7 +8,7 @@ const past_days = 2;
 const forecast_days = 3;
 
 const enrichUrl = ({ lat, long }: { lat: number; long: number }) => {
-  const url = new URL(currentApiUrl);
+  const url = new URL(dashboardApiUrl);
   url.searchParams.append("longitude", `${long}`);
   url.searchParams.append("latitude", `${lat}`);
   url.searchParams.append("current", `${current_weather_params}`);
