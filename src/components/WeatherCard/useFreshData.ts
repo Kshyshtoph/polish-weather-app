@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import coordinates from "@/data/coordinates.json";
+import coordinates from "@/data/cities.json";
 import CardProps from "./CardProps";
 import currentApiUrl from "@/data/apiUrl";
 

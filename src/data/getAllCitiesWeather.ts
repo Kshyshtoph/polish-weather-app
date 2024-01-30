@@ -1,6 +1,6 @@
 import { CitiesData } from "./CitiesData";
 import { dashboardApiUrl } from "./apiUrl";
-import coordinates from "./coordinates.json";
+import coordinates from "./cities.json";
 
 const url = new URL(dashboardApiUrl);
 

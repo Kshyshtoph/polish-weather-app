@@ -1,5 +1,5 @@
 import WeatherCard from "@/components/WeatherCard/";
-import coordinates from "@/data/coordinates.json";
+import coordinates from "@/data/cities.json";
 import CardProps from "@/components/WeatherCard/CardProps";
 import getAllCitiesWeather from "@/data/getAllCitiesWeather";
 

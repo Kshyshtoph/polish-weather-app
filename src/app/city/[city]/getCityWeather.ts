@@ -1,5 +1,5 @@
 import { dashboardApiUrl } from "@/data/apiUrl";
-import coordinates from "@/data/coordinates.json";
+import coordinates from "@/data/cities.json";
 
 const current_weather_params =
   "temperature_2m,is_day,precipitation,rain,showers,snowfall,wind_speed_10m";
