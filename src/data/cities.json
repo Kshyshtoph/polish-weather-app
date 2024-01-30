@@ -1,0 +1,42 @@
+[
+  {
+    "city": "Warszawa",
+    "lat": 52.2298,
+    "long": 21.0118
+  },
+  {
+    "city": "Kraków",
+    "lat": 50.0614,
+    "long": 19.9366
+  },
+  {
+    "city": "Wrocław",
+    "lat": 51.1,
+    "long": 17.0333
+  },
+  {
+    "city": "Łódź",
+    "lat": 51.7706,
+    "long": 19.4739
+  },
+  {
+    "city": "Poznań",
+    "lat": 52.4069,
+    "long": 16.9299
+  },
+  {
+    "city": "Gdańsk",
+    "lat": 54.3523,
+    "long": 18.6491
+  },
+  {
+    "city": "Szczecin",
+    "lat": 53.4289,
+    "long": 14.553
+  },
+  {
+    "city": "Bydgoszcz",
+    "lat": 53.1235,
+    "long": 18.0076
+  }
+]
